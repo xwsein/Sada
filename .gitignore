@@ -1,8 +1,31 @@
+# Ignore venvs and system files
+venv/
 Sada/
-.env
+bin/
+lib/
+lib64/
+include/
+share/
+etc/
+pyvenv.cfg
 __pycache__/
-*.pyc
-data/raw/*
-data/processed/*
-data/exports/*
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore notebooks temp
+.ipynb_checkpoints/
+
+# Ignore local data dumps
+data/raw/
+data/tmp/
+*.csv
+*.db
+*.sqlite
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
 
